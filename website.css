@@ -1,0 +1,239 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 100;
+    float: left;
+    font-family: arial;
+    color: white;
+}
+
+.menu {
+    float: right; 
+    
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 70px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: red;
+    z-index: 1;
+    background-image: url(.//img/logoputi.jpeg);
+    background-size: 5%;
+    background-repeat: no-repeat;
+    background-position: 85px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float:left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+img {
+    width: auto;
+    height: 350px;
+    margin: 50px;
+    border: #333333;
+    border-color: black;
+  }
+
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: rgb(238, 19, 92);
+}
+
+a.tombol {
+    background: white;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(238, 19, 92);
+}
+
+a.webjkt:hover {
+    background: red;
+    text-decoration: none;
+
+}
+
+a.lokasitheater:hover {
+    background: red;
+    text-decoration: none;
+
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.memberlist {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartumember {
+    width: 20%;
+    margin: 10px auto;
+    border: 2px solid palevioletred;
+    border-radius: 5%;
+    padding: 0px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 20px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.kartumember img {
+    border-radius: 8%;
+    width:auto;
+    height: 250px;
+    margin: 10px;
+    padding: 10px 0px 0px 10px;
+}
+
+.kartumember h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.kartumember p {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 17px;
+    text-align: center;
+    color: palevioletred;
+    
+}
+
+.wrapper {
+    background: grey;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    margin: 0px;
+    text-align: center;
+}
+
+.select {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
